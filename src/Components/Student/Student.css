@@ -1,0 +1,23 @@
+.navitem{
+    padding: 20px;
+}
+
+.navitem:hover{
+    background-color: white;
+}
+
+.addbtn{
+    background-color:#198754;
+    height: 63px;
+    border: none;
+}
+
+.addbtn:hover{
+    background-color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .nav-link{
+        margin-left: 15px;
+    }
+  }

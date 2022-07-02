@@ -1,0 +1,42 @@
+{
+  "Students": [
+    {
+      "Name": "Sujit",
+      "Company": "EPAM",
+      "Designation": "Software Engineer",
+      "Package": "10LPA",
+      "id": 1
+    },
+    {
+      "Name": "Chandani",
+      "Company": "Deloitte",
+      "Designation": "Senior Consultant",
+      "Package": "18 LPA",
+      "id": 2
+    },
+    {
+      "Name": "Anjali",
+      "Company": "Accenture",
+      "Designation": "Associate Software Engineer",
+      "Package": "4.5 LPA",
+      "id": 3
+    },
+    {
+      "Name": "Puja",
+      "Company": "KPMG",
+      "Designation": "Technical Lead",
+      "Package": "17LPA",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
