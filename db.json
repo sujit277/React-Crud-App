@@ -4,15 +4,8 @@
       "Name": "Sujit",
       "Company": "EPAM",
       "Designation": "Software Engineer",
-      "Package": "10LPA",
+      "Package": "12LPA",
       "id": 1
-    },
-    {
-      "Name": "Chandani",
-      "Company": "Deloitte",
-      "Designation": "Senior Consultant",
-      "Package": "18 LPA",
-      "id": 2
     },
     {
       "Name": "Anjali",
