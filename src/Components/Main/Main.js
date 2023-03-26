@@ -16,14 +16,12 @@ const Main = () => {
         async function getAllStudents() {
             const result = await axios.get("http://localhost:3000/Students");
             setData(result.data);
-            console.log(result.data);
         }
 
     function deleteStudent(id) {
         axios.delete(`http://localhost:3000/Students/${id}`)
             .then(() => {
                 setStatus("Deleted Succesfully");
-                console.log(status);
                 alert("Student Deleted SuccessFully");
                 window.location.reload();
             })

@@ -12,14 +12,9 @@ const Update = () => {
         Package: ""
     })
     const  {id} = useParams();
-    console.log(id);
-
     function handleInput(event) {
         const name = event.target.name;
         const value = event.target.value;
-        console.log(value);
-        console.log(name);
-        console.log(Data);
         setData({ ...Data, [name]: value })
     }
 
@@ -29,14 +24,12 @@ const Update = () => {
 
     async function getStudentDetail(id){
         const result = await axios.get(`http://localhost:3000/Students/${id}`);
-        console.log(result.data);
         setData(result.data);
     }
 
     function UpdateDetails(){
         axios.put(`http://localhost:3000/Students/${id}`, Data)
             .then((res) => {
-                console.log(res.data)
                 alert("Student Updated Successfully");
                 window.location.replace("http://localhost:3001/");
             })
